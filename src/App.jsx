@@ -19,7 +19,7 @@ import Proyectos from './paginas/Proyectos';
 
 import uk from './img/uk.gif'
 import spain from './img/spainGif.gif'
-import menu from './img/menu.png'
+
 import logo from './img/brLogoTraYell.png'
 function App() {
   const [english, setEnglish] = useState(true)
