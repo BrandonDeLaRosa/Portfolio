@@ -1,19 +1,19 @@
-import { useState } from 'react'
-import { Link } from 'react-scroll'
-import './App.css'
-import './styles/tabletSize.css'
-import './styles/pcSize.css'
-import './styles/wideScreen.css'
+import { useState } from 'react';
+import { Link } from 'react-scroll';
+import './App.css';
+import './styles/tabletSize.css';
+import './styles/pcSize.css';
+import './styles/wideScreen.css';
 import cv from './Components/archivo.pdf';
 
-import Contact from './Pages/Contact'
-import Home from './Pages/Home'
-import Projects from './Pages/Projects'
-import Skills from './Pages/Skills'
-import Contacto from './paginas/Contacto'
-import Habilidades from './paginas/Habilidades'
-import Inicio from './paginas/Inicio'
-import Proyectos from './paginas/Proyectos'
+import Contact from './Pages/Contact';
+import Home from './Pages/Home';
+import Projects from './Pages/Projects';
+import Skills from './Pages/Skills';
+import Contacto from './paginas/Contacto';
+import Habilidades from './paginas/Habilidades';
+import Inicio from './paginas/Inicio';
+import Proyectos from './paginas/Proyectos';
 
 
 
@@ -132,7 +132,7 @@ window.addEventListener('scroll', colorChange)
   )
 }
 
-export default App
+export default App;
 
 // style={{ color: darkTheme ? "white" : "black" }}
 
