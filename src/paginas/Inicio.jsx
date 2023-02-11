@@ -1,6 +1,6 @@
 import React from 'react';
 import TypeWriterEffect from 'react-typewriter-effect';
-import homeBg2 from '../img/homeBg3.jpg'
+import homeBg2 from '../img/homebg3.jpg'
 import homeLogo from '../img/webDevLogo2.png'
 
 const Inicio = () => {
