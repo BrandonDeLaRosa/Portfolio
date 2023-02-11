@@ -1,0 +1,281 @@
+/* and (max-width: 1950px) */
+@media only screen and (min-width: 1950px) {
+   
+    /* ------------------------------------------------------------------------------------ Header style (RESPONSIVE MENU)--------------------------------------------------------- */
+    
+    .links{
+      display: flex;
+      align-items: center;
+      height: 7rem;
+    }
+
+    .logo{
+        position: absolute;
+        top: -1.5rem;
+        left: -2rem;
+        height: 250px;
+        width: 440px;
+      }
+      
+      .flag{
+        width: 140px;
+        height: 75px;
+        margin-left: 1.5rem;
+      }
+      
+      .linkFullS {
+        font-size: 50px;
+        margin-left: 5rem;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      
+      .fa-sun{
+         font-size: 45px;
+      }
+      
+      .fa-moon{
+        font-size: 45px;
+      }
+
+      .colorChangeContainer{
+        padding: 2rem;
+      }
+    
+      .bckToHdr{
+        border: 8px solid ;
+        padding: 1.5rem;
+      }
+    
+      .fa-hand-point-up{
+        font-size: 50px;
+      }
+      
+      .aTxt{
+        text-decoration: none;
+        font-size: 35px;
+        font-weight: bold;
+        color: white;
+      }
+      
+      .cv{
+        margin-top: 1rem;
+        width: 250px;
+        background-color: orange;
+        padding: .7rem;
+        border-radius: .5rem;
+        margin: 0rem 0rem 0rem 5rem;
+      }
+
+      /* -------------------------------------------------------------------------------- Responsive Burger Menu --------------------------------------------------------------- */
+      
+      /*  ========================================================== HOME ====================================== */
+      
+      .homeContainer{
+        padding: 2rem;
+      }
+
+      .react-typewriter-text {
+        font-size: 80px;
+      }
+      
+      .homeTxt1{
+        margin-top: 2rem;
+      }
+
+      .homeTitle{
+        font-size: 100px;
+      }
+      
+      .homeTxt2{
+          position: absolute;
+          top: 35rem;
+          left: 3rem;
+          right: 1rem;
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+      }
+
+      @media only screen and (min-width: 1500px) {
+        .homeLogo{
+          position: absolute;
+          top: 15rem;
+          right: 0rem;
+          width: 670px;
+          height: 500px;
+        }
+      } 
+      
+      .homeTitle3{
+        margin-top: 1rem;
+        font-size: 40px;
+        border-radius: 1rem;
+        padding: .5rem 1rem;
+        background-image: linear-gradient(rgba(216, 212, 212, 0.068), rgba(8, 185, 255, 0.192));
+        max-width: 1504px;
+        overflow-y: visible;
+      }
+
+      .homeLogo{
+        position: absolute;
+        top: 22rem;
+        right: 0rem;
+        width: 1200px;
+        height: 750px;
+      }
+
+       /* =========================================================== SKILLS  */
+       .skillsTitle{
+        font-size: 80px;
+      }
+      
+      .techSkill{
+        margin: 1rem 0rem 8rem;
+        max-width: 2000px;
+        overflow-y: visible;
+      }
+
+      .form-check-label{
+        font-size: 45px;
+        margin-top: -24px;
+      }
+      
+      .technologies{
+        width: 2000px;
+        gap: 8rem;
+      }
+    
+      .imgText{
+        font-size: rem;
+        gap: 1rem;
+      }
+      
+      .techImgs{
+          height: 150px;
+      }
+      
+      .process{
+        font-size: 1.7rem;
+      }
+      
+      .fa-right-long{
+        top: 30px;
+        right: 30px;
+        font-size: 40px;
+      }
+      
+      .list{
+        flex-direction: row;
+        gap: 30rem;
+        height: 100%;
+        width: 1024px;
+        max-width: 2000px;
+      }
+      
+      
+      .listItem{
+        font-size: 70px;
+      }
+      .listItem2{
+        font-size: 70px;
+      }
+    
+      /* ====================== PROJECTS */
+      
+      .two2{
+       font-size: 70px;
+      }
+
+      .projectsBox{
+        height: 90%;
+      }
+      
+      .gifContainer{
+        gap: 2.5rem;
+        width: 90%;
+      }
+      
+      .gifBox{
+        max-width: 700px;
+      }
+      
+      .projectTitle{
+        font-size: 40px;
+      }
+       
+       
+      /* ==========================================================   CONTACT */
+      
+      .contactTitle{
+        font-size: 80px;
+      }
+      
+      .contactBox{
+        flex-direction: row;
+      }
+
+      .contactImg{
+        right: 0rem;
+        max-width: 1224px;
+      } 
+      
+      .formContainer{
+        position: relative;
+        top: -5rem;
+        max-width: 1600px;
+        gap: 1rem;
+        margin-top: 4rem;
+      }
+      
+      .formName{
+        height: 70px;
+        font-size: 35px;
+      }
+      
+      .formEmail{
+        height: 70px;
+        font-size: 35px;
+      }
+      
+      .formText{
+       font-size: 35px;
+      }
+    
+      
+      .submit {
+        width: 40%;
+        padding: 1rem;
+        font-size: 40px;
+      }
+     
+      
+      
+      .formTitle{
+        font-size: 55px;
+      }
+      
+      .contactLink{
+        position: relative;
+        bottom: -12rem;
+        gap: 5rem;
+      }
+      
+      .fa-whatsapp{
+        font-size: 120px;
+      }
+      
+      .fa-github{
+        font-size: 120px;
+      }
+      
+      .fa-file{
+        font-size: 120px;
+      }
+      
+      .fa-linkedin-in{
+        font-size: 120px;
+      }
+    
+    }

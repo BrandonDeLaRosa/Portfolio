@@ -1,0 +1,352 @@
+.skillsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding: 0rem 0rem 2rem;
+    margin-top: -2rem;
+}
+
+.skillsBg{
+  position: absolute;
+  top: 100vh;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.skillsTitle{
+  text-decoration: underline;
+}
+
+.techSkill{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  max-width: 460px;
+  /* background-color: aqua; */
+  overflow-y: scroll;
+}
+
+.form-check-label{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -5px;
+}
+
+.technologies{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  height: 90%;
+  /* overflow-y: scroll; */ 
+}
+
+.skillbox{
+  display: flex;
+}
+
+
+.fa-right-long{
+  position: relative;
+  top: 6px;
+  right: 10px;
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.dos{
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+  0%{
+    transform: translateX(0px);
+  }
+  25%{
+    transform: translateX(5px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 300px;
+  /* background-color: blue; */
+}
+
+
+.listItem{
+  position: relative;
+  letter-spacing: 2px;
+}
+
+.listItem::before{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  color: orange;
+  -webkit-text-stroke: 0vw orange;
+  /* border-right: 2px solid orange; */
+  overflow: hidden;
+  animation: textColor 10s linear infinite;
+}
+
+.listItem2{
+  position: relative;
+  letter-spacing: 2px;
+}
+
+.listItem2::before{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  color: orange;
+  /* -webkit-text-stroke: 0vw orange; */
+  /* border-right: 2px solid orange; */
+  overflow: hidden;
+  animation: textColor 10s linear infinite;
+  animation-delay: 5s;
+}
+
+@keyframes textColor {
+  0%, 10%, 100%
+  {
+    width: 0;
+  }
+  80%, 90% 
+  {
+    width: 100%;
+  } 
+}
+
+.imgText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .3rem;
+}
+
+.techImgs{
+    height: 100px;
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+
+
+.process{
+  position: relative;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.process::before{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: orange;
+  -webkit-text-stroke: 0vw orange;
+  /* border-right: 2px solid orange; */
+  overflow: hidden;
+  animation: textColor 3s linear infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.projectsContainer{
+  height: 96vh;
+  /* height: 100vh; */
+  width: 100%;
+  background-image: linear-gradient(rgba(29, 29, 29, 0.158), rgba(32, 32, 32, 0.253));
+  /* background-image: linear-gradient(rgba(152, 116, 175, 0.171), rgba(8, 74, 255, 0.582)); */
+}
+
+.projectsBg{
+position: absolute;
+background-color: black;
+top: 200vh;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: -1;
+height: 100vh;
+width: 100%;
+object-fit: cover;
+}
+
+.projectsBox{
+  display: flex;
+}
+
+.gifContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 80%;
+  height: 90%;
+  overflow-y: scroll;
+  padding: 1rem;
+  margin: 0rem auto;
+  /* z-index: 3; */
+}
+
+.gifBox{
+  width: 100%;
+  max-width: 400px;
+  /* height: 80%; */
+}
+
+.projectTitle{
+  position: relative;
+  letter-spacing: 2px;
+  /* color: orange; */
+}
+
+.projectTitle::before{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: orange;
+  -webkit-text-stroke: 0vw orange;
+  /* border-right: 2px solid orange; */
+  overflow: hidden;
+  animation: textColor 6s linear infinite;
+}
+
+
+.gif{
+ width: 100%;
+}
+
+
+
+
+
+<div className='projectsContainer' id='projects'>
+            
+            <img className='projectsBg' src={bg} alt="" />
+            {/* <img className='projectsBg' src={bg2} alt="" /> */}
+            {/* <div className='projectsBox'> */}
+            <h1>Projects</h1>
+            <section className='gifContainer'>
+                <div className='gifBox'>
+                    <h3 className='projectTitle' data-text="Rick&Morty">Rick&Morty</h3>
+                    <a href="https://benevolent-elf-de37aa.netlify.app/" target="_blank"> <img className='gif' src={rick} alt="" /></a>     
+                </div>
+                <div className='gifBox'>
+                    <h3 className='projectTitle' data-text="Pokedex">Pokedex</h3>
+                    <a href="https://coruscating-baklava-dc58d4.netlify.app/" target="_blank"><img className='gif' src={pokedex} alt="" /></a>
+                </div>
+                <div className='gifBox'>
+                    <h3 className='projectTitle' data-text="eCommerce">eCommerce</h3>
+                    <a href="https://main--resilient-klepon-9fd703.netlify.app/#/" target="_blank"><img className='gif' src={ecom} alt="" /></a>
+                </div>
+                <div className='gifBox'>
+                    <h3 className='projectTitle' data-text="Weather">Weather</h3>
+                    <a href="https://soft-strudel-34df4f.netlify.app/" target="_blank" ><img className='gif' src={weather} alt="" /></a>
+                </div> 
+            </section>
+            {/* </div> */}
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .contactContainer{
+  margin-top: 2rem;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(29, 29, 29, 0.158), rgba(32, 32, 32, 0.253));
+
+}
+
+.contactBg{
+  position: absolute;
+  top: 300vh;
+  left: 0;
+  right: 0;
+  /* bottom: ; */
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  /* z-index: -1; */
+}
+
+.contactBox{
+  display: flex;
+}
+
+.contactImg{
+  position: absolute;
+  /* top: 50%; */
+  width: 70%;
+  right: 50%;
+  left: 18%;
+  bottom: 0;
+  max-width: 500px;
+} 
+
+
+.contactTitle{
+  z-index: 4;
+}
