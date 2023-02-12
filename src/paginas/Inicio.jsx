@@ -1,5 +1,5 @@
 import React from 'react';
-// import TypeWriterEffect from 'react-typewriter-effect';
+import Typewriter from 'typewriter-effect';
 import homeBg2 from '../img/homebg3.jpg'
 import homeLogo from '../img/webDevLogo2.png'
 
@@ -8,28 +8,26 @@ const Inicio = () => {
         <div className='homeContainer' id='home'>
             <img className='homeBg' src={homeBg2} alt="" />
 
-                <h1 className='homeTitle'>¡Bienvenido!</h1>
-                <img className='homeLogo' src={homeLogo} alt="" />
+            <h1 className='homeTitle'>¡Bienvenido!</h1>
+            <img className='homeLogo' src={homeLogo} alt="" />
 
-            {/* <div className='homeTxt1'>
-                <TypeWriterEffect
-                    textStyle={{
-                        fontFamily: 'arial',
-                        // color: '#ff7300',
-                        color: 'orange',
-                        fontWeight: 700,
+
+            <div className='homeTxt1'>
+                <Typewriter
+                    options={{
+                        loop: true
                     }}
-                    startDelay={1000}
-                    cursorColor="#3F3D56"
-                    multiText={[
-                        'Soy Brandon De La Rosa.',
-                        'Soy desarrollador web front-end.',
-                    ]}
-                    multiTextDelay={1000}
-                    typeSpeed={30}
-                    multiTextLoop
+                    onInit={(typewriter) => {
+                        typewriter.typeString("Soy Brandon De La Rosa.")
+                            .pauseFor(2000)
+                            .deleteAll()
+                            .typeString('Soy desarrollador web front-end.')
+                            .pauseFor(2000)
+                            .deleteAll()
+                            .start();
+                    }}
                 />
-            </div> */}
+            </div>
 
             <div className='homeTxt2'>
                 <h1 className='homeTitle'>Sobre mi</h1>
