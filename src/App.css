@@ -327,7 +327,8 @@ font-size: 20px;
   border-radius: 1rem;
   padding: .5rem 1rem;
   background-image: linear-gradient(rgba(216, 212, 212, 0.068), rgba(8, 185, 255, 0.192));
-  /* overflow-y: scroll; */
+  overflow-y: scroll;
+  scrollbar-width: thin;
 }
 
 @media only screen and (min-width: 400px) {
@@ -581,6 +582,7 @@ object-fit: cover;
   padding: 1rem;
   margin: 2rem auto 0rem;
   overflow-y: scroll;
+  scrollbar-width: thin;
 }
 
 

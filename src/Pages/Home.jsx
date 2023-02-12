@@ -1,5 +1,6 @@
 import React from 'react';
-// import TypeWriterEffect from 'react-typewriter-effect';
+import TypeWriterEffect from 'react-typewriter-effect';
+import Typewriter from 'typewriter-effect';
 import homeBg2 from '../img/homebg3.jpg'
 import homeLogo from '../img/webDevLogo2.png'
 
@@ -11,6 +12,8 @@ const Home = () => {
             <h1 className='homeTitle'>Welcome!</h1>
             <img className='homeLogo' src={homeLogo} alt="" />
 
+
+{/*  ========================================   react-typewriter-effect ================================*/}
             {/* <div className='homeTxt1'>
                 <TypeWriterEffect
                     textStyle={{
@@ -29,6 +32,15 @@ const Home = () => {
                     multiTextLoop
                 />
             </div> */}
+
+            <div className='homeTxt1'>
+                <Typewriter
+                   onInit={(typewriter) => {
+                    typewriter.typeString("Hi i´m Brandon De La Rosa.")
+                    .start();
+                   }}
+                />
+            </div>
 
             <div className='homeTxt2'>
                 <h1 className='homeTitle'>About me.</h1>
