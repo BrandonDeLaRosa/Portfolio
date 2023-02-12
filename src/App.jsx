@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { Link } from 'react-scroll';
 import './App.css';
-import './styles/tabletSize.css';
-import './styles/pcSize.css';
-import './styles/wideScreen.css';
+// import './styles/tabletSize.css';
+// import './styles/pcSize.css';
+// import './styles/wideScreen.css';
 import cv from './Components/archivo.pdf';
 
 import Contact from './Pages/Contact';

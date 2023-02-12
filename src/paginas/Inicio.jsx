@@ -1,5 +1,5 @@
 import React from 'react';
-import TypeWriterEffect from 'react-typewriter-effect';
+// import TypeWriterEffect from 'react-typewriter-effect';
 import homeBg2 from '../img/homebg3.jpg'
 import homeLogo from '../img/webDevLogo2.png'
 
@@ -11,7 +11,7 @@ const Inicio = () => {
                 <h1 className='homeTitle'>¡Bienvenido!</h1>
                 <img className='homeLogo' src={homeLogo} alt="" />
 
-            <div className='homeTxt1'>
+            {/* <div className='homeTxt1'>
                 <TypeWriterEffect
                     textStyle={{
                         fontFamily: 'arial',
@@ -29,7 +29,7 @@ const Inicio = () => {
                     typeSpeed={30}
                     multiTextLoop
                 />
-            </div>
+            </div> */}
 
             <div className='homeTxt2'>
                 <h1 className='homeTitle'>Sobre mi</h1>
