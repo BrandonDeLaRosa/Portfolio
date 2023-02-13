@@ -7,7 +7,7 @@ const SoftSkills = ({ lang }) => {
             <section className='secList'>
                 <div className='skillbox'>
                     <i class="fa-solid fa-right-long "></i>
-                    <h3 className='listItem' data-text={lang ? "Proactive" : "Proactivo"}  >{lang ? "Proactive" : "Proactivo"}</h3>
+                    <h3 className='listItem2' data-text={lang ? "Proactive" : "Proactivo"}  >{lang ? "Proactive" : "Proactivo"}</h3>
                 </div>
                 <div className='skillbox'>
                     <i class="fa-solid fa-right-long dos"></i>
@@ -15,7 +15,7 @@ const SoftSkills = ({ lang }) => {
                 </div>
                 <div className='skillbox'>
                     <i class="fa-solid fa-right-long"></i>
-                    <h3 className='listItem' data-text={lang ? "Assertive" : "Asertivo"}>{lang ? "Assertive" : "Asertivo"}</h3>
+                    <h3 className='listItem2' data-text={lang ? "Assertive" : "Asertivo"}>{lang ? "Assertive" : "Asertivo"}</h3>
                 </div>
                 <div className='skillbox'>
                     <i class="fa-solid fa-right-long dos"></i>
@@ -23,7 +23,7 @@ const SoftSkills = ({ lang }) => {
                 </div>
                 <div className='skillbox'>
                     <i class="fa-solid fa-right-long"></i>
-                    <h3 className='listItem' data-text={lang ? "Gentle" : "Amable"}>{lang ? "Gentle" : "Amable"}</h3>
+                    <h3 className='listItem2' data-text={lang ? "Gentle" : "Amable"}>{lang ? "Gentle" : "Amable"}</h3>
                 </div>
                 <div className='skillbox'>
                     <i class="fa-solid fa-right-long dos"></i>
@@ -38,7 +38,7 @@ const SoftSkills = ({ lang }) => {
                 </div>
                 <div className='skillbox'>
                     <i class="fa-solid fa-right-long dos"></i>
-                    <h3 className='listItem2' data-text={lang ? "Autodidact" : "Autodidacta"}>{lang ? "Autodidact" : "Autodidacta"}</h3>
+                    <h3 className='listItem' data-text={lang ? "Autodidact" : "Autodidacta"}>{lang ? "Autodidact" : "Autodidacta"}</h3>
                 </div>
                 <div className='skillbox'>
                     <i class="fa-solid fa-right-long"></i>
@@ -46,7 +46,7 @@ const SoftSkills = ({ lang }) => {
                 </div>
                 <div className='skillbox'>
                     <i class="fa-solid fa-right-long dos"></i>
-                    <h3 className='listItem2' data-text={lang ? "Responsible" : "Responsable"}>{lang ? "Responsible" : "Responsable"}</h3>
+                    <h3 className='listItem' data-text={lang ? "Responsible" : "Responsable"}>{lang ? "Responsible" : "Responsable"}</h3>
                 </div>
                 <div className='skillbox'>
                     <i class="fa-solid fa-right-long"></i>
@@ -54,7 +54,7 @@ const SoftSkills = ({ lang }) => {
                 </div>
                 <div className='skillbox'>
                     <i class="fa-solid fa-right-long dos"></i>
-                    <h3 className='listItem2' data-text={lang ? "Reliable" : "Confiable"}>{lang ? "Reliable" : "Confiable"}</h3>
+                    <h3 className='listItem' data-text={lang ? "Reliable" : "Confiable"}>{lang ? "Reliable" : "Confiable"}</h3>
                 </div>
             </section>
         </div>

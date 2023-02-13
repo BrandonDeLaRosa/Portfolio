@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { Link } from 'react-scroll';
 import './App.css';
-// import './styles/tabletSize.css';
-// import './styles/pcSize.css';
-// import './styles/wideScreen.css';
+import './styles/tabletSize.css';
+import './styles/pcSize.css';
+import './styles/wideScreen.css';
 import cv from './Components/archivo.pdf';
 
 import Contact from './Pages/Contact';
@@ -31,6 +31,7 @@ function App() {
   }
 
   const [color, setColor] = useState(false);
+
 
   const colorChange = () => {
     if(window.scrollY >= 10) {
@@ -135,5 +136,4 @@ window.addEventListener('scroll', colorChange)
 export default App;
 
 // style={{ color: darkTheme ? "white" : "black" }}
-
-// npm i react-typewriter-effect
+// npm i typewriter-effect   

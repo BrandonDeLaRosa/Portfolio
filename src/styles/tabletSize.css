@@ -73,10 +73,22 @@
     padding: 1rem;
   }
   
+  .homeTitle{
+    font-size: 45px;
+  }
+
   .homeTxt1{
       display: flex;
       flex-direction: column;
       gap: 1rem;
+      top: 12rem;
+      font-size: 2.5em;
+  }
+
+  @media only screen and (min-width: 820px) {
+    .homeTxt1{
+      /* top: 10rem; */
+    }
   }
 
   .react-typewriter-text {
@@ -93,11 +105,8 @@
   
   
   .homeTxt2{
-      top: 17rem;
-  }
-  
-  .homeTitle{
-    font-size: 55px;
+      top: 5rem;
+      gap: .5rem;
   }
   
   .homeTitle2{
@@ -112,22 +121,18 @@
     overflow-y: scroll;
   }
   
-   @media only screen and (min-width: 850px) {
-    .homeTitle3{
-    font-size: 27px;
-  }
-  .homeContainer{
-    gap: 2.7rem;
-  }
-  }
-  
-  @media only screen and (min-width: 920px) {
-    .homeTitle3{
-    font-size: 29px;
+   @media only screen and (min-width: 950px) {
+    .homeTxt2{
+      top: 6rem;
+      gap: 1.5rem;
   }
   }
   
   /* =========================================================== SKILLS  */
+  .skillsContainer{
+    height: 97vh;
+  }
+
   .skillsTitle{
     font-size: 45px;
   }
@@ -148,19 +153,27 @@
   }
   
   .technologies{
-    gap: 5rem;
+    gap: 8rem;
   }
 
   .imgText{
+    /* font-size: ; */
     gap: .8rem;
   }
   
   .techImgs{
-      height: 120px;
+      height: 75px;
   }
   
+  @media only screen and (min-width: 950px) {
+    .techImgs{
+      height: 80px;
+  }
+  }
+  
+
   .process{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   
   .fa-right-long{
@@ -188,38 +201,66 @@
   /* ====================== PROJECTS */
   
   .projectsBox{
- 
     height: 90%;
   }
   
   .gifContainer{
     gap: 2.5rem;
-    width: 90%;
+    width: 95%;
   }
   
   .gifBox{
-    max-width: 500px;
+    max-width: 400px;
   }
-  
+  .projectTitle1{
+    position: relative;
+    font-size: 45px;
+  }
+
   .projectTitle{
-    font-size: 40px;
+    font-size: 30px;
   }
    
   /* ==========================================================   CONTACT */
   
+  .contactContainer{
+    height: 90vh;
+  }
+
   .contactTitle{
     font-size: 45px;
   }
   
   .contactImg{
-    right: 1rem;
-    max-width: 500px;
+    right: 0rem;
+    max-width: 450px;
+    top: 295vh;
   } 
+
+  .contactBox{
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: -3rem;
+  }
   
   .formContainer{
-    max-width: 920px;
+    max-width: 550px;
     gap: .2rem;
-    margin-top: 4rem;
+    margin-top: 8rem;
+    margin-left: 3rem;
+  }
+
+  .contactLink{
+    z-index: 4;
+    width: 55%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 23rem;
   }
   
   .formName{

@@ -12,7 +12,7 @@ const Proyectos = () => {
         {/* <img className='projectsBg' src={bg} alt="" /> */}
         <img className='projectsBg' src={bg2} alt="" />
         <div className='projectsBox'>
-        <h1 className='projectTitle'>Proyectos</h1>
+        <h1 className='projectTitle1'>Proyectos</h1>
         <section className='gifContainer'>
             <div className='gifBox'>
                 <h3 className='projectTitle' data-text="Rick&Morty">Rick&Morty</h3>

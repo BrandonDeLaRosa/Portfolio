@@ -22,7 +22,8 @@
 }
 
 .dark-mode {
-  background-image: linear-gradient(rgba(152, 116, 175, 0.171), rgba(8, 74, 255, 0.582));
+  /* background-image: linear-gradient(rgba(152, 116, 175, 0.171), rgba(8, 74, 255, 0.582)); */
+  background-image: linear-gradient(rgba(46, 37, 51, 0.233), rgba(5, 33, 109, 0.582));
   color: #b9b9b9;
   height: 100%;
   transition: linear-gradient 0.9s ease-in-out;
@@ -282,6 +283,32 @@ font-size: 20px;
   object-fit: cover;
 }
 
+.homeLogo{
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  width: 90px;
+  height: 60px;
+  animation: upDwn 3s linear infinite;
+}
+
+@keyframes upDwn {
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+.homeTitle{
+  font-size: 40px;
+  color: white;
+}
+
 .homeTxt1{
     display: flex;
     flex-direction: column;
@@ -290,32 +317,36 @@ font-size: 20px;
     font-weight: 700;
     font-family: arial;
     color: darkorange;
+    position: absolute;
+    top: 8rem;
 }
 
-.homeLogo{
-  position: absolute;
-  top: 1rem;
-  right: 0;
-  width: 90px;
-  height: 60px;
+@media only screen and (min-width: 520px) {
+  .homeTxt1{
+  top: 9.5rem;
 }
-
+}
 
 .homeTxt2{
-    position: absolute;
-    top: 14.5rem;
-    left: 1rem;
+    position: relative;
+    top: 6rem;
+    left: .1rem;
     right: 1rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    overflow-y: scroll;
+  scrollbar-width: thin;
+  max-height: 580px;
     /* max-height: 530px; */
 }
 
-.homeTitle{
-  font-size: 40px;
-  color: white;
+@media only screen and (min-width: 520px) {
+  .homeTxt2{
+    gap: 2rem;
+  } 
 }
+
 
 .homeTitle2{
   font-size: 30px;
@@ -346,7 +377,13 @@ font-size: 20px;
 }
 @media only screen and (min-width: 520px) {
   .homeTitle3{
-  font-size: 23px;
+  font-size: 22px;
+}
+}
+
+@media only screen and (min-width: 630px) {
+  .homeTitle3{
+  font-size: 25px;
 }
 }
 
@@ -592,6 +629,10 @@ object-fit: cover;
   z-index: 3;
 }
 
+.projectTitle1{
+  position: relative;
+}
+
 .projectTitle{
   position: relative;
   letter-spacing: 2px;
@@ -626,7 +667,7 @@ object-fit: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: linear-gradient(rgba(249, 253, 255, 0.082), rgba(132, 210, 255, 0.164));
+  /* background-image: linear-gradient(rgba(249, 253, 255, 0.082), rgba(132, 210, 255, 0.164)); */
   /* background-image: linear-gradient(rgba(152, 116, 175, 0.171), rgba(8, 74, 255, 0.582)); */
 }
 
@@ -650,16 +691,17 @@ object-fit: cover;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  margin-top: -3rem;
 }
 
 .contactTitle{
   position: relative;
-  top: 0;
+  top: 2rem;
 }
 
 .contactImg{
   position: absolute;
-  top: 300vh;
+  top: 305vh;
   width: 70%;
   right: 1rem;
   /* left: 18%; */
@@ -672,7 +714,7 @@ object-fit: cover;
  display: flex;
  flex-direction: column;
  align-items: left;
- padding: 2rem;
+ padding: -2rem 2rem 2rem 2rem;
  width: 90%;
   z-index: 2;
   max-width: 400px;
@@ -761,7 +803,7 @@ object-fit: cover;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  margin-top: -3rem;
+  margin-top: -6rem;
 }
 
 .fa-whatsapp{

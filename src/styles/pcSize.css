@@ -6,49 +6,49 @@
     .links{
       display: flex;
       align-items: center;
-      /* background-color: aqua; */
       height: 4rem;
     }
 
     .logo{
         position: absolute;
-        top: -1.5rem;
+        top: -.5rem;
         left: -2rem;
-        height: 150px;
-        width: 250px;
+        height: 120px;
+        width: 220px;
       }
       
       .flag{
-        width: 90px;
-        height: 50px;
+        width: 70px;
+        height: 39px;
       }
       
       .linkFullS {
-        font-size: 30px;
+        font-size: 22px;
         color: white;
         text-decoration: none;
         font-weight: bold;
       }
       
       .fa-sun{
-         font-size: 35px;
+         font-size: 25px;
       }
       
       .fa-moon{
-        font-size: 35px;
+        font-size: 25px;
      
       }
       .colorChangeContainer{
-        padding: 1rem;
+        padding: .7rem;
       }
     
       .bckToHdr{
         border: 4px solid ;
-        padding: .9rem;
+        padding: .6rem;
+        bottom: .2rem;
       }
     
       .fa-hand-point-up{
-        font-size: 27px;
+        font-size: 22px;
       }
       
       .aTxt{
@@ -71,96 +71,125 @@
       
       /*  ========================================================== HOME ====================================== */
       
-      .react-typewriter-text {
-        margin-top: -2rem;
-        font-size: 50px;
+      .homeContainer{
+        height: 93vh;
       }
 
-      @media only screen and (min-width: 1025px) {
       .homeLogo{
-        position: absolute;
-        top: 8rem;
-        right: 0rem;
-        width: 270px;
-        height: 200px;
-      }
-    }
-
-      @media only screen and (min-width: 1300px) {
-      .homeLogo{
-        position: absolute;
-        top: 17rem;
-        right: 0rem;
-        width: 550px;
-        height: 320px;
-      }
-    }
-
-      @media only screen and (min-width: 1500px) {
-      .homeLogo{
-        position: absolute;
-        top: 15rem;
-        right: 0rem;
-        width: 670px;
-        height: 500px;
-      }
-    } 
-      
-      .homeTxt2{
-          top: 17rem;
+        top: 10rem;
+        right: 2rem;
+        width: 330px;
+        height: 180px;
       }
       
       .homeTitle{
-        font-size: 55px;
+        font-size: 50px;
         /* margin-left: 10rem; */
       }
-      
-      .homeTitle2{
-        font-size: 40px;
+
+      .homeTxt1{
+        top: 13rem;
+        font-size: 45px;
+        max-width: 550px;
       }
       
       .homeTitle3{
-        font-size: 25px;
+        font-size: 23px;
         border-radius: 1rem;
         padding: .5rem 1rem;
         background-image: linear-gradient(rgba(216, 212, 212, 0.068), rgba(8, 185, 255, 0.192));
         overflow-y: scroll;
-        max-width: 850px;
+        max-width: 900px;
       }
       
-       @media only screen and (min-width: 850px) {
-        .homeTitle3{
-        font-size: 27px;
+      .homeTxt2{
+        top: 9rem;
+        gap: 1rem;
       }
-      .homeContainer{
-        gap: 2.7rem;
+
+      @media only screen and (min-width: 1300px) {
+      .homeLogo{
+        position: absolute;
+        top: 10rem;
+        right: 3rem;
+        width: 380px;
+        height: 220px;
       }
+
+      .homeTitle3{
+        font-size: 24px;
+        border-radius: 1rem;
+        padding: .5rem 1rem;
+        background-image: linear-gradient(rgba(216, 212, 212, 0.068), rgba(8, 185, 255, 0.192));
+        overflow-y: scroll;
+        max-width: 1000px;
       }
       
-      @media only screen and (min-width: 920px) {
-        .homeTitle3{
-        font-size: 29px;
+      .homeTxt2{
+        top: 9rem;
+        gap: 1rem;
       }
+    }
+
+      @media only screen and (min-width: 1490px) {
+      .homeLogo{
+        position: absolute;
+        top: 10rem;
+        right: 3rem;
+        width: 400px;
+        height: 240px;
+      }
+
+        
+      .homeTitle{
+        font-size: 53px;
+        /* margin-left: 10rem; */
+      }
+
+      .homeTxt1{
+        top: 13rem;
+        font-size: 50px;
+        max-width: 550px;
+      }
+
+      .homeTitle3{
+        font-size: 26px;
+        border-radius: 1rem;
+        padding: .5rem 1rem;
+        background-image: linear-gradient(rgba(216, 212, 212, 0.068), rgba(8, 185, 255, 0.192));
+        overflow-y: scroll;
+        max-width: 1200px;
       }
       
+      .homeTxt2{
+        top: 10rem;
+        gap: 1rem;
+      }
+    }  
+           
       /* =========================================================== SKILLS  */
+      .skillsContainer{
+        height: 97vh;
+      }
+
       .skillsTitle{
-        font-size: 55px;
+        font-size: 50px;
       }
       
       .techSkill{
-        margin: 1rem 0rem 8rem;
-        max-width: 1204px;
+        margin: .5rem 0rem 7rem;
+        max-width: 954px;
         /* overflow-y: hidden; */
       }
 
       .form-check-label{
-        font-size: 35px;
+        font-size: 30px;
         margin-top: -18px;
       }
       
       .technologies{
-        gap: 7rem;
+        gap: 9rem;
+        padding: 1rem 0rem 0rem;
       }
     
       .imgText{
@@ -168,11 +197,48 @@
       }
       
       .techImgs{
-          height: 140px;
+          height: 80px;
       }
       
       .process{
-        font-size: 1.7rem;
+        font-size: 1.3rem;
+      }
+
+      @media only screen and (min-width: 1300px) {
+
+        .techSkill{
+          max-width: 1204px;
+        }
+        .technologies{
+          gap: 8rem;
+        }
+      
+        .imgText{
+          gap: 1rem;
+        }
+        
+        .techImgs{
+            height: 90px;
+        }
+        
+        .process{
+          font-size: 1.4rem;
+        }
+      }
+      @media only screen and (min-width: 1500px) {
+
+        .techSkill{
+          max-width: 1404px;
+        }
+    
+        .imgText{
+          gap: 1rem;
+        }
+        
+        .techImgs{
+            height: 100px;
+        }
+        
       }
       
       .fa-right-long{
@@ -191,18 +257,13 @@
       
       
       .listItem{
-        font-size: 45px;
+        font-size: 40px;
       }
       .listItem2{
-        font-size: 45px;
+        font-size: 40px;
       }
     
       /* ====================== PROJECTS */
-      
-      .projectsBox{
-     
-        height: 90%;
-      }
       
       .gifContainer{
         gap: 2.5rem;
@@ -210,84 +271,122 @@
       }
       
       .gifBox{
-        max-width: 500px;
+        max-width: 400px;
       }
       
+      .projectTitle1{
+        margin-top: 1rem;
+        font-size: 50px;
+      }
       .projectTitle{
-        font-size: 40px;
+        font-size: 35px;
       }
        
       /* ==========================================================   CONTACT */
+
+      
+      .contactContainer{
+        height: 90vh;
+      }
       
       .contactTitle{
-        font-size: 55px;
+        font-size: 50px;
       }
       
       .contactBox{
         flex-direction: row;
+        justify-content: space-between;
+        /* max-width: 800px; */
       }
 
       .contactImg{
-        right: 1rem;
-        max-width: 800px;
+        max-width: 550px;
+        top: 297vh;
       } 
       
       .formContainer{
         position: relative;
-        top: -5rem;
-        max-width: 920px;
+        top: 0rem;
+        max-width: 650px;
+        left: 2rem;
         gap: .2rem;
         margin-top: 4rem;
       }
       
-      .formName{
-        height: 50px;
-        font-size: 25px;
+       .formName{
+        height: 40px;
+        font-size: 20px;
       }
       
       .formEmail{
-        height: 50px;
-        font-size: 25px;
+        height: 40px;
+        font-size: 20px;
       }
       
       .formText{
-       font-size: 25px;
-      }
+       font-size: 20px;
+      } 
     
       
       .submit {
         width: 40%;
-        padding: .8rem;
-        font-size: 30px;
+        padding: .5rem;
+        font-size: 25px;
       }
-     
-      
       
       .formTitle{
-        font-size: 40px;
-        font-weight: bold;
+        font-size: 30px;
       }
       
       .contactLink{
         position: relative;
-        bottom: -12rem;
+        bottom: -13rem;
         gap: 3rem;
+        left: 1rem;
       }
       
       .fa-whatsapp{
-        font-size: 57px;
+        font-size: 50px;
       }
       
       .fa-github{
-        font-size: 57px;
+        font-size: 50px;
       }
       
       .fa-file{
-        font-size: 57px;
+        font-size: 50px;
       }
       
       .fa-linkedin-in{
-        font-size: 57px;
+        font-size: 50px;
       }
-    
+
+
+      
+@media only screen and (min-width: 1300px) {
+
+  .contactImg{
+    max-width: 600px;
+    top: 294vh;
+  } 
     }
+  }    
+
+      @media only screen and (min-width: 1500px) {   
+      .fa-whatsapp{
+        font-size: 60px;
+      }
+      
+      .fa-github{
+        font-size: 60px;
+      }
+      
+      .fa-file{
+        font-size: 60px;
+      }
+      
+      .fa-linkedin-in{
+        font-size: 60px;
+      }
+}   
+    
