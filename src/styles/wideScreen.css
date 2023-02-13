@@ -1,393 +1,369 @@
-/* and (max-width: 1950px) */
-/* and (max-width: 1950px) */
-@media only screen and (min-width: 1950px) {
+@media only screen and (min-width: 1951px) {
    
-    /* ------------------------------------------------------------------------------------ Header style (RESPONSIVE MENU)--------------------------------------------------------- */
+  /* ------------------------------------------------------------------------------------ Header style (RESPONSIVE MENU)--------------------------------------------------------- */
+  .links{
+    height: 8rem;
+  }
+
+  .logo{
+      position: absolute;
+      top: -.5rem;
+      left: -2rem;
+      height: 200px;
+      width: 300px;
+    }
     
-    .links{
-      display: flex;
-      align-items: center;
-      height: 4rem;
+    .flag{
+      width: 120px;
+      height: 60px;
+    }
+    
+    .linkFullS {
+      font-size: 40px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      margin-left: 2.5rem;
+    }
+    
+    .fa-sun{
+       font-size: 45px;
+    }
+    
+    .fa-moon{
+      font-size: 45px;
+   
+    }
+    .colorChangeContainer{
+      padding: 1.5rem;
+    }
+  
+    .bckToHdr{
+      border: 4px solid ;
+      padding: 1rem;
+      bottom: .8rem;
+    }
+  
+    .fa-hand-point-up{
+      font-size: 40px;
+    }
+    
+    .aTxt{
+      text-decoration: none;
+      font-size: 40px;
+      font-weight: bold;
+      color: white;
+    }
+    
+    .cv{
+      margin-top: 1rem;
+      width: 50%;
+      background-color: orange;
+      padding: .5rem;
+      border-radius: .5rem;
+      margin-top: -.4rem;
+      margin-left: 1rem;
     }
 
-    .logo{
-        position: absolute;
-        top: -.5rem;
-        left: -2rem;
-        height: 120px;
-        width: 220px;
-      }
-      
-      .flag{
-        width: 70px;
-        height: 39px;
-      }
-      
-      .linkFullS {
-        font-size: 22px;
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-      }
-      
-      .fa-sun{
-         font-size: 25px;
-      }
-      
-      .fa-moon{
-        font-size: 25px;
-     
-      }
-      .colorChangeContainer{
-        padding: .7rem;
-      }
+    /* -------------------------------------------------------------------------------- Responsive Burger Menu --------------------------------------------------------------- */
     
-      .bckToHdr{
-        border: 4px solid ;
-        padding: .6rem;
-        bottom: .2rem;
-      }
+    /*  ========================================================== HOME ====================================== */
     
-      .fa-hand-point-up{
-        font-size: 22px;
-      }
-      
-      .aTxt{
-        text-decoration: none;
-        font-size: 20px;
-        font-weight: bold;
-        color: white;
-      }
-      
-      .cv{
-        margin-top: 1rem;
-        width: 50%;
-        background-color: orange;
-        padding: .5rem;
-        border-radius: .5rem;
-        margin-top: -.4rem;
-      }
-
-      /* -------------------------------------------------------------------------------- Responsive Burger Menu --------------------------------------------------------------- */
-      
-      /*  ========================================================== HOME ====================================== */
-      
-      .homeContainer{
-        height: 93vh;
-      }
-
-      .homeLogo{
-        top: 10rem;
-        right: 2rem;
-        width: 330px;
-        height: 180px;
-      }
-      
-      .homeTitle{
-        font-size: 50px;
-        /* margin-left: 10rem; */
-      }
-
-      .homeTxt1{
-        top: 13rem;
-        font-size: 45px;
-        max-width: 550px;
-      }
-      
-      .homeTitle3{
-        font-size: 23px;
-        border-radius: 1rem;
-        padding: .5rem 1rem;
-        background-image: linear-gradient(rgba(216, 212, 212, 0.068), rgba(8, 185, 255, 0.192));
-        overflow-y: scroll;
-        max-width: 900px;
-      }
-      
-      .homeTxt2{
-        top: 9rem;
-        gap: 1rem;
-      }
-
-      @media only screen and (min-width: 1300px) {
-      .homeLogo{
-        position: absolute;
-        top: 10rem;
-        right: 3rem;
-        width: 380px;
-        height: 220px;
-      }
-
-      .homeTitle3{
-        font-size: 24px;
-        border-radius: 1rem;
-        padding: .5rem 1rem;
-        background-image: linear-gradient(rgba(216, 212, 212, 0.068), rgba(8, 185, 255, 0.192));
-        overflow-y: scroll;
-        max-width: 1000px;
-      }
-      
-      .homeTxt2{
-        top: 9rem;
-        gap: 1rem;
-      }
+    .homeContainer{
+      height: 93vh;
     }
 
-      @media only screen and (min-width: 1490px) {
+    .homeLogo{
+      top: 15rem;
+      right: 0rem;
+      width: 530px;
+      height: 380px;
+    }
+
+    @media only screen and (min-width: 2000px) {
       .homeLogo{
-        position: absolute;
-        top: 10rem;
-        right: 3rem;
-        width: 400px;
-        height: 240px;
+        top: 15rem;
+        right: 0rem;
+        width: 630px;
+        height: 480px;
+      }
+ }
+    
+    .homeTitle{
+      font-size: 80px;
+    }
+
+    .homeTxt1{
+      top: 22rem;
+      font-size: 70px;
+      max-width: 950px;
+    }
+
+    .homeTxt2{
+      top: 18rem;
+      gap: 2rem;
+    }
+    
+    .homeTitle3{
+      font-size: 35px;
+      border-radius: 1rem;
+      padding: .5rem 1rem;
+      background-image: linear-gradient(rgba(216, 212, 212, 0.068), rgba(8, 185, 255, 0.192));
+    overflow-y: hidden;
+      max-width: 1500px;
+      max-height: 710px;
+    }
+    
+
+    @media only screen and (min-width: 2300px) {
+         .homeContainer{
+      height: 93vh;
+      /* background-color: aqua; */
+    }
+
+    .homeLogo{
+      top: 15rem;
+      right: 5rem;
+      width: 730px;
+      height: 580px;
+    }
+    
+    .homeTitle{
+      font-size: 100px;
+      position: relative;
+      top: -1.5rem;
+    }
+
+    .homeTxt1{
+      top: 22rem;
+      font-size: 85px;
+      max-width: 950px;
+    }
+
+    .homeTxt2{
+      top: 19rem;
+      gap: 0rem;
+    }
+    
+    .homeTitle3{
+      font-size: 40px;
+      border-radius: 1rem;
+      padding: .5rem 1rem;
+      background-image: linear-gradient(rgba(216, 212, 212, 0.068), rgba(8, 185, 255, 0.192));
+      overflow-y: hidden;
+      max-width: 1500px;
+      max-height: 710px;
+    }
+  }
+
+    @media only screen and (min-width: 2500px) {
+      .homeLogo{
+        top: 15rem;
+        right: 5rem;
+        width: 870px;
+        height: 580px;
       }
 
-        
+      
       .homeTitle{
-        font-size: 53px;
-        /* margin-left: 10rem; */
-      }
-
-      .homeTxt1{
-        top: 13rem;
-        font-size: 50px;
-        max-width: 550px;
-      }
-
-      .homeTitle3{
-        font-size: 26px;
-        border-radius: 1rem;
-        padding: .5rem 1rem;
-        background-image: linear-gradient(rgba(216, 212, 212, 0.068), rgba(8, 185, 255, 0.192));
-        overflow-y: scroll;
-        max-width: 1200px;
-      }
-      
-      .homeTxt2{
-        top: 10rem;
-        gap: 1rem;
-      }
-    }  
-           
-      /* =========================================================== SKILLS  */
-      .skillsContainer{
-        height: 97vh;
-      }
-
-      .skillsTitle{
-        font-size: 50px;
-      }
-      
-      .techSkill{
-        margin: .5rem 0rem 7rem;
-        max-width: 954px;
-        /* overflow-y: hidden; */
-      }
-
-      .form-check-label{
-        font-size: 30px;
-        margin-top: -18px;
-      }
-      
-      .technologies{
-        gap: 9rem;
-        padding: 1rem 0rem 0rem;
-      }
-    
-      .imgText{
-        gap: 1rem;
-      }
-      
-      .techImgs{
-          height: 80px;
-      }
-      
-      .process{
-        font-size: 1.3rem;
-      }
-
-      @media only screen and (min-width: 1300px) {
-
-        .techSkill{
-          max-width: 1204px;
-        }
-        .technologies{
-          gap: 8rem;
-        }
-      
-        .imgText{
-          gap: 1rem;
-        }
-        
-        .techImgs{
-            height: 90px;
-        }
-        
-        .process{
-          font-size: 1.4rem;
-        }
-      }
-      @media only screen and (min-width: 1500px) {
-
-        .techSkill{
-          max-width: 1404px;
-        }
-    
-        .imgText{
-          gap: 1rem;
-        }
-        
-        .techImgs{
-            height: 100px;
-        }
-        
-      }
-      
-      .fa-right-long{
-        top: 23px;
-        right: 19px;
-        font-size: 28px;
-      }
-      
-      .list{
-        flex-direction: row;
-        gap: 3rem;
-        height: 100%;
-        width: 1024px;
-        max-width: 1204px;
-      }
-      
-      
-      .listItem{
-        font-size: 40px;
-      }
-      .listItem2{
-        font-size: 40px;
-      }
-    
-      /* ====================== PROJECTS */
-      
-      .gifContainer{
-        gap: 2.5rem;
-        width: 90%;
-      }
-      
-      .gifBox{
-        max-width: 400px;
-      }
-      
-      .projectTitle1{
-        margin-top: 1rem;
-        font-size: 50px;
-      }
-      .projectTitle{
-        font-size: 35px;
-      }
-       
-      /* ==========================================================   CONTACT */
-
-      
-      .contactContainer{
-        height: 90vh;
-      }
-      
-      .contactTitle{
-        font-size: 50px;
-      }
-      
-      .contactBox{
-        flex-direction: row;
-        justify-content: space-between;
-        /* max-width: 800px; */
-      }
-
-      .contactImg{
-        max-width: 550px;
-        top: 297vh;
-      } 
-      
-      .formContainer{
+        font-size: 100px;
         position: relative;
         top: 0rem;
-        max-width: 650px;
-        left: 2rem;
-        gap: .2rem;
-        margin-top: 4rem;
+      }
+  
+      .homeTxt1{
+        top: 22rem;
+        font-size: 85px;
+        max-width: 950px;
+      }
+  
+      .homeTxt2{
+        top: 19rem;
+        gap: 2rem;
       }
       
-       .formName{
-        height: 40px;
-        font-size: 20px;
+      .homeTitle3{
+        font-size: 40px;
+        border-radius: 1rem;
+        padding: .5rem 1rem;
+        background-image: linear-gradient(rgba(216, 212, 212, 0.068), rgba(8, 185, 255, 0.192));
+        overflow-y: hidden;
+        max-width: 2000px;
+        max-height: 710px;
       }
-      
-      .formEmail{
-        height: 40px;
-        font-size: 20px;
-      }
-      
-      .formText{
-       font-size: 20px;
-      } 
-    
-      
-      .submit {
-        width: 40%;
-        padding: .5rem;
-        font-size: 25px;
-      }
-      
-      .formTitle{
-        font-size: 30px;
-      }
-      
-      .contactLink{
-        position: relative;
-        bottom: -13rem;
-        gap: 3rem;
-        left: 1rem;
-      }
-      
-      .fa-whatsapp{
-        font-size: 50px;
-      }
-      
-      .fa-github{
-        font-size: 50px;
-      }
-      
-      .fa-file{
-        font-size: 50px;
-      }
-      
-      .fa-linkedin-in{
-        font-size: 50px;
-      }
-
-
-      
-@media only screen and (min-width: 1300px) {
-
-  .contactImg{
-    max-width: 600px;
-    top: 294vh;
-  } 
+  }   
+         
+    /* =========================================================== SKILLS  */
+    .skillsContainer{
+      height: 97vh;
     }
-  }    
 
-      @media only screen and (min-width: 1500px) {   
-      .fa-whatsapp{
-        font-size: 60px;
-      }
-      
-      .fa-github{
-        font-size: 60px;
-      }
-      
-      .fa-file{
-        font-size: 60px;
-      }
-      
-      .fa-linkedin-in{
-        font-size: 60px;
-      }
-}   
+    .skillsTitle{
+      font-size: 80px;
+    }
     
+    .techSkill{
+      margin: .5rem 0rem 7rem;
+      max-width: 2500px;
+      /* overflow-y: hidden; */
+      /* background-color: aqua; */
+    }
+    
+    .form-check-label{
+      font-size: 40px;
+      margin-top: -18px;
+    }
+    
+    .technologies{
+      padding: 0rem .2rem;
+      gap: 8rem;
+      padding: 1rem 0rem 0rem;
+    }
+
+    
+    .techSkill::-webkit-scrollbar{
+      width: 5px;
+    }
+    .techSkill::-webkit-scrollbar-track{
+      background-color: rgba(13, 31, 99, 0.651);
+    }
+    .techSkill::-webkit-scrollbar-thumb{
+      background: #d1d1d1;
+      border-radius: 5rem;
+    }
+  
+    .imgText{
+      gap: 1rem;
+    }
+    
+    .techImgs{
+        height: 130px;
+    }
+    
+    .process{
+      font-size: 1.8rem;
+    }
+    
+    .fa-right-long{
+      top: 23px;
+      right: 19px;
+      font-size: 28px;
+    }
+    
+    .list{
+      flex-direction: row;
+      gap: 8rem;
+      height: 100%;
+      width: 2024px;
+      max-width: 2004px;
+    }
+    
+    
+    .listItem{
+      font-size: 60px;
+      margin: 1rem;
+    }
+    .listItem2{
+      font-size: 60px;
+      margin: 1rem;
+    }
+  
+    /* ====================== PROJECTS */
+    
+    .gifContainer{
+      gap: 2.5rem;
+      width: 90%;
+    }
+    
+    .gifBox{
+      max-width: 700px;
+    }
+    
+    .projectTitle1{
+      margin-top: 1rem;
+      font-size: 80px;
+    }
+    .projectTitle{
+      font-size: 50px;
+    }
+     
+    /* ==========================================================   CONTACT */
+
+    
+    .contactContainer{
+      height: 90vh;
+    }
+    
+    .contactTitle{
+      font-size: 80px;
+    }
+    
+    .contactBox{
+      flex-direction: row;
+      justify-content: space-between;
+      /* max-width: 800px; */
+    }
+
+    .contactImg{
+      max-width: 1500px;
+      top: 285vh;
+    } 
+    
+    .formContainer{
+      position: relative;
+      top: 0rem;
+      max-width: 1350px;
+      left: 2rem;
+      gap: .2rem;
+      margin-top: 4rem;
+    }
+    
+     .formName{
+      height: 70px;
+      font-size: 40px;
+    }
+    
+    .formEmail{
+      height: 70px;
+      font-size: 40px;
+    }
+    
+    .formText{
+     font-size: 40px;
+    } 
+    
+    .submit {
+      width: 40%;
+      padding: .5rem;
+      font-size: 40px;
+    }
+    
+    .formTitle{
+      font-size: 50px;
+    }
+    
+    .contactLink{
+      position: relative;
+      bottom: -23rem;
+      gap: 5rem;
+      left: 0rem;
+    }
+    
+    .fa-whatsapp{
+      font-size: 90px;
+    }
+    
+    .fa-github{
+      font-size: 90px;
+    }
+    
+    .fa-file{
+      font-size: 90px;
+    }
+    
+    .fa-linkedin-in{
+      font-size: 90px;
+    }
+
+  }    
+  

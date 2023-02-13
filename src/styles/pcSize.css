@@ -282,6 +282,18 @@
       .gifContainer{
         gap: 2.5rem;
         width: 90%;
+        overflow-y: scroll;
+      }
+
+      .gifContainer::-webkit-scrollbar{
+        width: 5px;
+      }
+      .gifContainer::-webkit-scrollbar-track{
+        background-color: rgba(13, 31, 99, 0.651);
+      }
+      .gifContainer::-webkit-scrollbar-thumb{
+        background: #d1d1d1;
+        border-radius: 5rem;
       }
       
       .gifBox{
