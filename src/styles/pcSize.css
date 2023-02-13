@@ -84,11 +84,13 @@
       
       .homeTitle{
         font-size: 50px;
+        position: relative;
+        top: -1.5rem;
         /* margin-left: 10rem; */
       }
 
       .homeTxt1{
-        top: 13rem;
+        top: 11rem;
         font-size: 45px;
         max-width: 550px;
       }
@@ -99,12 +101,24 @@
         padding: .5rem 1rem;
         background-image: linear-gradient(rgba(216, 212, 212, 0.068), rgba(8, 185, 255, 0.192));
         overflow-y: scroll;
-        max-width: 900px;
+        max-width: 1000px;
+        max-height: 210px;
+      }
+
+      .homeTitle3::-webkit-scrollbar{
+        width: 5px;
+      }
+      .homeTitle3::-webkit-scrollbar-track{
+        background-color: rgba(13, 31, 99, 0.651);
+      }
+      .homeTitle3::-webkit-scrollbar-thumb{
+        background: #d1d1d1;
+        border-radius: 5rem;
       }
       
       .homeTxt2{
-        top: 9rem;
-        gap: 1rem;
+        top: 7rem;
+        gap: 0rem;
       }
 
       @media only screen and (min-width: 1300px) {
@@ -118,16 +132,13 @@
 
       .homeTitle3{
         font-size: 24px;
-        border-radius: 1rem;
-        padding: .5rem 1rem;
-        background-image: linear-gradient(rgba(216, 212, 212, 0.068), rgba(8, 185, 255, 0.192));
-        overflow-y: scroll;
-        max-width: 1000px;
+        max-width: 900px;
+        max-height: 200px;
       }
       
       .homeTxt2{
-        top: 9rem;
-        gap: 1rem;
+        top: 7rem;
+        gap: 0rem;
       }
     }
 
@@ -147,23 +158,13 @@
       }
 
       .homeTxt1{
-        top: 13rem;
-        font-size: 50px;
+        font-size: 48px;
         max-width: 550px;
       }
 
       .homeTitle3{
-        font-size: 26px;
-        border-radius: 1rem;
-        padding: .5rem 1rem;
-        background-image: linear-gradient(rgba(216, 212, 212, 0.068), rgba(8, 185, 255, 0.192));
-        overflow-y: scroll;
-        max-width: 1200px;
-      }
-      
-      .homeTxt2{
-        top: 10rem;
-        gap: 1rem;
+        font-size: 25px;
+        max-width: 1000px;
       }
     }  
            
@@ -181,15 +182,28 @@
         max-width: 954px;
         /* overflow-y: hidden; */
       }
-
+      
       .form-check-label{
         font-size: 30px;
         margin-top: -18px;
       }
       
       .technologies{
+        padding: 0rem .2rem;
         gap: 9rem;
         padding: 1rem 0rem 0rem;
+      }
+
+      
+      .techSkill::-webkit-scrollbar{
+        width: 5px;
+      }
+      .techSkill::-webkit-scrollbar-track{
+        background-color: rgba(13, 31, 99, 0.651);
+      }
+      .techSkill::-webkit-scrollbar-thumb{
+        background: #d1d1d1;
+        border-radius: 5rem;
       }
     
       .imgText{
