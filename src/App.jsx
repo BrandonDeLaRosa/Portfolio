@@ -21,6 +21,7 @@ import uk from './img/uk.gif'
 import spain from './img/spainGif.gif'
 
 import logo from './img/brLogoTraYell.png'
+import Footer from './Pages/Footer';
 function App() {
   const [english, setEnglish] = useState(true)
   const [darkTheme, setDarkTheme] = useState(true)
@@ -128,7 +129,7 @@ window.addEventListener('scroll', colorChange)
       {english ? <Skills  lang={english}/> : <Habilidades lang={english} />}
       {english ? <Projects /> : <Proyectos />}
       {english ? <Contact /> : <Contacto />}
-
+      <Footer/>  
     </div>
   )
 }
