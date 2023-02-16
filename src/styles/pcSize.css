@@ -179,7 +179,8 @@
       
       .techSkill{
         margin: .5rem 0rem 7rem;
-        max-width: 954px;
+        min-width: 918px;
+        max-width: 1600px;
         /* overflow-y: hidden; */
       }
       

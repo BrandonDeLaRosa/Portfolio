@@ -142,6 +142,7 @@
   
   .techSkill{
     margin: 1rem 0rem 5rem;
+    min-width: 680px;
     max-width: 980px;
     /* background-color: aqua; */
   }
