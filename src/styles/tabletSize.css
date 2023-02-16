@@ -315,4 +315,23 @@
     font-size: 45px;
   }
 
+
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: -1rem;
+    /* left: -1rem; */
+    width: 100vw;
+  }
+
+  .footerTxt{
+    text-align: right;
+  }
+
+  .footerLogo{
+  width: 200px;
+  height: 150px;
+  }
+
 }

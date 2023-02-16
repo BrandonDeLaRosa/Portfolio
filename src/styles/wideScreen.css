@@ -365,5 +365,25 @@
       font-size: 90px;
     }
 
+    .footer{
+      width: 99vw;
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      bottom: -1rem;
+      /* left: -1rem; */
+      height: 250px;
+    }
+  
+    .footerTxt{
+      text-align: right;
+      font-size: 40px;
+    }
+  
+    .footerLogo{
+    width: 250px;
+    height: 200px;
+    }
+
   }    
   
