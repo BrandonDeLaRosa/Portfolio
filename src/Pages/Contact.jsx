@@ -2,6 +2,7 @@ import React from 'react';
 import bg from '../img/projectsBg.jpg';
 import contact from '../img/ImgContact.png';
 import cv from '../Components/archivo.pdf'
+import Footer from './Footer';
 
 const Contact = () => {
 
@@ -15,18 +16,21 @@ const Contact = () => {
             <div className='contactBox'>
                 <img className='contactImg' src={contact} alt="" />
 
-                <form className='formContainer' action="https://formsubmit.co/ae911ffe024a36a5b0f82d7d08246075" method="POST">
-                    <h2 className='formTitle' data-text="Name:">Name:</h2>
-                    <input className='formName' type="text" name="Name" placeholder='Type your name...' required/>
-                    <h2 className='formTitle' data-text="Email-Adress:">Email-Adress:</h2>
-                    <input className='formEmail' type="email" name="Email" placeholder='Email adress...' required/> 
-                    <h2 className='formTitle' data-text="Message:">Message:</h2>
-                    <textarea className='formText' name="Message" rows={7} cols={35} placeholder='   Hey! let´s work together...' required></textarea>
+                <div class="card">   
+                    <form className='formContainer' action="https://formsubmit.co/ae911ffe024a36a5b0f82d7d08246075" method="POST">
+                        <h2 className='formTitle' data-text="Name:">Name:</h2>
+                        <input className='formName' type="text" name="Name" placeholder='Type your name...' required />
+                        <h2 className='formTitle' data-text="Email-Adress:">Email-Adress:</h2>
+                        <input className='formEmail' type="email" name="Email" placeholder='Email adress...' required />
+                        <h2 className='formTitle' data-text="Message:">Message:</h2>
+                        <textarea className='formText' name="Message" rows={7} cols={35} placeholder='   Hey! let´s work together...' required></textarea>
 
-                    <button className='submit'  type="submit">
-                        Submit
-                    </button>
-                </form>
+                        <button className='submit' type="submit">
+                            Submit
+                        </button>
+                    </form>
+                </div>
+
 
                 <section className='contactLink'>
                     <a href="https://www.linkedin.com/in/brandon-de-la-rosa-3b0870259/" target="_blank"><h6></h6><i class="fa-brands fa-linkedin-in"></i></a>

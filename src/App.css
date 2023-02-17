@@ -39,7 +39,7 @@
   color: #e7e7e7;
   height: 100%;
   transition: linear-gradient 0.9s ease-in-out;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 
@@ -368,6 +368,8 @@ font-size: 20px;
 @media only screen and (min-width: 400px) {
   .homeTitle3{
   font-size: 20px;
+  overflow-y: scroll;
+  max-height: 420px;
 }
 .homeContainer{
   gap: 2.5rem;
@@ -415,6 +417,10 @@ font-size: 20px;
   height: 100vh;
   width: 100%;
   object-fit: cover;
+}
+
+.skillsTitle{
+  margin: .5rem 0rem 0em 1rem;
 }
 
 .techSkillsBox{
@@ -585,6 +591,92 @@ font-size: 20px;
   animation: textColor 3s linear infinite;
 }
 
+
+.switch {
+  --circle-dim: 1.4em;
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 2em;
+  margin-bottom: 1rem;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffdec9;
+  transition: .4s;
+  border-radius: 30px;
+}
+
+.slider-card {
+  position: absolute;
+  content: "";
+  height: var(--circle-dim);
+  width: var(--circle-dim);
+  border-radius: 20px;
+  left: 0.3em;
+  bottom: 0.3em;
+  transition: .4s;
+  pointer-events: none;
+}
+
+.slider-card-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  perspective: 1000px;
+  border-radius: 50%;
+  transition: .4s transform;
+}
+
+.slider-card-front {
+  background-color: orange;
+}
+
+.slider-card-back {
+  background-color: rgb(0, 119, 255);
+  transform: rotateY(180deg);
+}
+
+input:checked ~ .slider-card .slider-card-back {
+  transform: rotateY(0);
+}
+
+input:checked ~ .slider-card .slider-card-front {
+  transform: rotateY(-180deg);
+}
+
+input:checked ~ .slider-card {
+  transform: translateX(1.5em);
+}
+
+input:checked ~ .slider {
+  background-color: #adc6f5;
+}
+
+
+
+
+
+
+
+
+
+
 /* ====================== PROJECTS */
 
 .projectsContainer{
@@ -695,7 +787,7 @@ object-fit: cover;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: -3rem;
+  margin-top: 1rem;
 }
 
 .contactTitle{
@@ -765,7 +857,7 @@ object-fit: cover;
 }
 
 .submit {
-  margin-top: 1rem;
+  margin: 1rem 0rem 2rem;
   width: 50%;
   background-color: orange;
   padding: .5rem;
@@ -807,7 +899,7 @@ object-fit: cover;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  margin-top: -6rem;
+  margin-top: rem;
 }
 
 .fa-whatsapp{
@@ -846,6 +938,57 @@ object-fit: cover;
 }
 
 
+.card {
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  /* background-color: #07182E; */
+  background-color: transparent;
+  position: relative;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+  padding: -2rem 0rem 2rem;
+  margin: 1rem 0rem 0rem;
+}
+.card {
+  --bs-card-bg: #07182E; 
+  /* --bs-card-bg: transparent;  */
+  
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  background-image: linear-gradient(180deg, rgb(255, 145, 0), rgb(0, 183, 255));
+  /* background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255)); */
+  height: 130%;
+  animation: rotBGimg 3s linear infinite;
+  transition: all 0.2s linear;
+}
+
+@keyframes rotBGimg {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card::after {
+  content: '';
+  position: absolute;
+  background-color: #07182E;
+  /* background-color: transparent; */
+  inset: 5px;
+  border-radius: 15px;
+}  
+
 /* ==============================FOOTER ==================== */
 
 .footer{
@@ -855,7 +998,7 @@ object-fit: cover;
   align-items: center;
   padding: 1rem;
   position: relative;
-  bottom: -1rem;
+  /* bottom: -1rem; */
   /* left: -1rem; */
   width: 100vw;
   height: 150px;

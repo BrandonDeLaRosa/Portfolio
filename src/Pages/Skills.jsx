@@ -12,17 +12,26 @@ const Skills = ({ lang }) => {
 
             <h1 className='skillsTitle'>{skills ? "Soft skills" : "Technologies"}</h1>
             <div className='techSkillsBox'>
-                <Form onClick={() => setSkill(!skills)}>
+                {/* <Form onClick={() => setSkill(!skills)}>
                     <Form.Check
                         type="switch"
                         id="custom-switch"
                         label={skills ? "Technologies" : "Soft skills"}
                     />
-                </Form>
+                </Form> */}
+
+                <label class="switch">
+                    <input type="checkbox" onClick={() => setSkill(!skills)}/>
+                        <div class="slider"></div>
+                        <div class="slider-card">
+                            <div class="slider-card-face slider-card-front"></div>
+                            <div class="slider-card-face slider-card-back"></div>
+                        </div>
+                </label>
 
                 <div className='techSkill'>
-                {skills ? <SoftSkills lang={lang} /> : <Technologies lang={lang} />}
-            </div>
+                    {skills ? <SoftSkills lang={lang} /> : <Technologies lang={lang} />}
+                </div>
             </div>
         </div>
     );
