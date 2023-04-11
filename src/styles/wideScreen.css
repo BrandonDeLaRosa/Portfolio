@@ -21,9 +21,7 @@
       font-weight: bold;
       margin-left: 2.5rem;
     }
-    
-   
-    
+     
     .cv{
       margin-top: 1rem;
       width: 50%;
@@ -74,10 +72,6 @@
       overflow-y: hidden;
       max-width: 1500px;
       max-height: 710px;
-    }
-    
-    .footer{
-      width: 100vw;
     }
          
   }    

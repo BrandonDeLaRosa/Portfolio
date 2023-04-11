@@ -28,6 +28,10 @@
         text-decoration: none;
         font-weight: bold;
       }
+
+      .linkFullS:hover{
+        color: orange;
+      }
       
       .fa-sun{
          font-size: 25px;
@@ -79,7 +83,7 @@
         border: 3px ridge orange;
         outline: none;
         background-color: transparent;
-        transition: 1s;
+        transition: .5s;
         border-radius: 0.3em;
         font-size: 16px;
         font-weight: bold;
@@ -405,6 +409,12 @@
         border-radius: 20px;
         padding: -2rem 0rem 2rem;
         margin: 1rem 0rem 0rem 1rem;
+      }
+      
+
+      .card::before {
+        width: 250px;    
+        height: 950px;
       }
       
        .formName{
