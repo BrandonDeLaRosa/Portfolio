@@ -14,15 +14,13 @@ import Contacto from './paginas/Contacto';
 import Habilidades from './paginas/Habilidades';
 import Inicio from './paginas/Inicio';
 import Proyectos from './paginas/Proyectos';
-
-
-
 import uk from './img/uk.gif'
 import spain from './img/spainGif.gif'
-
 import logo from './img/brLogoTraYell.png'
 import Footer from './Pages/Footer';
 import ParticlesBg from './Components/ParticlesBg';
+
+
 function App() {
   const [english, setEnglish] = useState(true)
   const [darkTheme, setDarkTheme] = useState(true)

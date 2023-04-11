@@ -993,7 +993,7 @@ object-fit: cover;
   position: relative;
   /* bottom: -1rem; */
   /* left: -1rem; */
-  width: 100vw;
+  /* width: 100vw; */
   height: 150px;
 }
 
