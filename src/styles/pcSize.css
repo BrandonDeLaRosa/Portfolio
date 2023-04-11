@@ -6,7 +6,7 @@
     .links{
       display: flex;
       align-items: center;
-      height: 4rem;
+      height: 5rem;
     }
 
     .logo{
@@ -55,18 +55,72 @@
         text-decoration: none;
         font-size: 20px;
         font-weight: bold;
+        color: orange;
+      }
+      .aTxt:hover{
+        transition: 1s ease-in-out;
         color: white;
       }
       
       .cv{
         margin-top: 1rem;
         width: 50%;
-        background-color: orange;
+        /* background-color: orange; */
         padding: .5rem;
         border-radius: .5rem;
         margin-top: -.4rem;
+        margin-left: 2rem;
       }
 
+      .cv {
+        width: 10em;
+        position: relative;
+        height: 3.5em;
+        border: 3px ridge orange;
+        outline: none;
+        background-color: transparent;
+        transition: 1s;
+        border-radius: 0.3em;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      
+      .cv::after {
+        content: "";
+        position: absolute;
+        top: -10px;
+        left: 3%;
+        width: 95%;
+        height: 40%;
+        background-color: #21212117;
+        transition: 0.5s;
+        transform-origin: center;
+      }
+      
+      .cv::before {
+        content: "";
+        transform-origin: center;
+        position: absolute;
+        top: 80%;
+        left: 3%;
+        width: 95%;
+        height: 40%;
+        background-color: #2121211f;
+        transition: 0.5s;
+      }
+      
+      .cv:hover::before, cv:hover::after {
+        transform: scale(0)
+      }
+      
+      .cv:hover {
+        box-shadow: inset 0px 0px 25px orange;
+        color: white;
+      }
+
+
+
+      
       /* -------------------------------------------------------------------------------- Responsive Burger Menu --------------------------------------------------------------- */
       
       /*  ========================================================== HOME ====================================== */
@@ -334,10 +388,23 @@
       .formContainer{
         position: relative;
         top: 0rem;
-        max-width: 650px;
-        left: 2rem;
+        max-width: 1500px;
         gap: .2rem;
-        margin-top: 4rem;
+        /* margin-top: 4rem; */
+      }
+
+      .card {
+        width: 100%;
+        max-width: 1100px;
+        height: 60%;
+        position: relative;
+        display: flex;
+        place-content: center;
+        place-items: center;
+        overflow: hidden;
+        border-radius: 20px;
+        padding: -2rem 0rem 2rem;
+        margin: 1rem 0rem 0rem 1rem;
       }
       
        .formName{
@@ -391,6 +458,7 @@
       .footer{
         display: flex;
         justify-content: space-between;
+        left: -1.1rem;
       }
     
       .footerTxt{
